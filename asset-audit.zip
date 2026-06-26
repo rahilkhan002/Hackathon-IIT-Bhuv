@@ -1,0 +1,61 @@
+# Asset Audit & Integration Mapping
+
+> **CRITICAL:** Missing or unused assets will incur heavy deductions in the hackathon evaluation. 
+> Because we did not have `asset_package.zip` during development, we built exact placeholder slots for every required asset. 
+> You MUST replace these placeholders with the actual files from the `.zip` before submission.
+
+Use this checklist to ensure 100% asset compliance.
+
+---
+
+## 1. SVGs & Icons
+
+We built custom inline SVGs as placeholders. You must replace the `<svg>` paths in `src/components/shared/Icons.tsx` with the exact SVGs from the asset pack.
+
+| Required SVG / Icon | Currently Used Placeholder | File to Update | Where it Appears in App | Status |
+|--------------------|---------------------------|----------------|-------------------------|--------|
+| **Logo** | `DataFlow AI` Text Gradient | `src/components/layout/Header.tsx` & `Footer.tsx` | Header navigation and Footer branding | [ ] |
+| **Feature 1 Icon** | `BrainCircuitIcon` | `src/components/shared/Icons.tsx` | Features Section (AI Agents) | [ ] |
+| **Feature 2 Icon** | `WorkflowIcon` | `src/components/shared/Icons.tsx` | Features Section (Workflow Automation) | [ ] |
+| **Feature 3 Icon** | `AnalyticsIcon` | `src/components/shared/Icons.tsx` | Features Section (Real-time Analytics) | [ ] |
+| **Feature 4 Icon** | `ShieldIcon` | `src/components/shared/Icons.tsx` | Features Section (Data Security) | [ ] |
+| **Pricing Checkmark** | `CheckIcon` | `src/components/shared/Icons.tsx` | Pricing Section (Feature Lists) | [ ] |
+| **Star Rating** | `StarIcon` | `src/components/shared/Icons.tsx` | Social Proof Section (Testimonial Cards) | [ ] |
+| **Dropdown/Accordion Arrow** | `ChevronDownIcon` | `src/components/shared/Icons.tsx` | Accordion (Mobile), Currency Selector | [ ] |
+| **Arrow Right** | `ArrowRightIcon` | `src/components/shared/Icons.tsx` | Hero Section (Watch Demo Button CTA) | [ ] |
+| **Menu / Close** | `MenuIcon` / `XIcon` | `src/components/shared/Icons.tsx` | Mobile Navigation Header | [ ] |
+
+---
+
+## 2. Typography / Fontlist
+
+We used Google Fonts (`Space Grotesk` and `Inter`) as placeholders to match standard SaaS aesthetics. The PDF specifies "two primary font families to configure via CSS/Head layers".
+
+| Required Font Type | Currently Used Placeholder | How to Update | Status |
+|--------------------|----------------------------|---------------|--------|
+| **Primary/Headings** | `Space Grotesk` | 1. Drop `.woff2` files into `src/assets/fonts/`<br>2. Update `src/app/layout.tsx` to use `next/font/local`<br>3. Update `variable: '--font-space-grotesk'` | [ ] |
+| **Secondary/Body** | `Inter` | 1. Drop `.woff2` files into `src/assets/fonts/`<br>2. Update `src/app/layout.tsx` to use `next/font/local`<br>3. Update `variable: '--font-inter'` | [ ] |
+
+---
+
+## 3. Color Palette
+
+We used standard Tailwind v4 default colors (`blue-500`, `violet-600`, `emerald-400`, `slate-950`). The PDF specifies "pre-defined hex codes outlining the exact aesthetic constraints".
+
+| Color Category | Current Tailwind Classes Used | How to Update | Status |
+|----------------|-------------------------------|---------------|--------|
+| **Background / Dark Theme** | `slate-950`, `slate-900`, `white/5` | Update `--color-background` in `src/app/globals.css` or map hex codes in `globals.css` `@theme` block. | [ ] |
+| **Text / Foreground** | `white`, `slate-400`, `slate-300` | Update `--color-foreground` in `src/app/globals.css`. | [ ] |
+| **Brand Primary Gradient** | `from-blue-500 to-violet-600` | Find/Replace `blue-500` and `violet-600` across components with the exact primary brand hex codes from the palette. | [ ] |
+| **Success / Highlights** | `emerald-400`, `cyan-400` | Update focus rings (`focus-visible:ring-cyan-400`) and checkmarks (`text-emerald-400`) with provided accent colors. | [ ] |
+| **Warning / Rating** | `amber-400` | Update Star ratings (`text-amber-400`) with the provided exact yellow/gold hex code. | [ ] |
+
+---
+
+## 4. Final Submission Checklist
+
+| Deliverable | Action Required | Status |
+|-------------|-----------------|--------|
+| **GitHub Repository** | Push this codebase to a public repo. | [ ] |
+| **Live Deployment Link** | Deploy to Vercel/Netlify. Add URL to the top of `README.md`. | [ ] |
+| **Demo Video (`<100MB`)** | Record a screen capture matching the structure/motion of the reference demo. Upload to Google Drive and add the link to the top of `README.md`. | [ ] |
