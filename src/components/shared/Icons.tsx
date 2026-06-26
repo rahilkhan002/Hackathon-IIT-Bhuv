@@ -23,12 +23,7 @@ export function BrainCircuitIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="M12 4.5a2.5 2.5 0 0 0-4.96-.46 2.5 2.5 0 0 0-1.98 3 2.5 2.5 0 0 0-1.32 4.24 3 3 0 0 0 .34 5.58 2.5 2.5 0 0 0 2.96 3.08A2.5 2.5 0 0 0 12 19.5a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 12 4.5" />
-      <path d="M15.7 6.4a1 1 0 1 0-1.4 1.4" />
-      <path d="M9.7 7.8a1 1 0 1 0-1.4-1.4" />
-      <path d="M8.3 15.2a1 1 0 1 0 1.4 1.4" />
-      <path d="M14.3 16.6a1 1 0 1 0 1.4-1.4" />
-      <path d="M12 8v4l2 2" />
+      <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93c.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204c.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78c-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107c-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93c-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204c-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78c.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107c.397-.165.71-.505.78-.929l.15-.894Z"/><path d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/></g>
     </svg>
   );
 }
@@ -46,7 +41,7 @@ export function WorkflowIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+      <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/>
     </svg>
   );
 }
@@ -64,12 +59,7 @@ export function AnalyticsIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="M3 3v18h18" />
-      <path d="M7 16l4-8 4 4 4-6" />
-      <circle cx="7" cy="16" r="1" />
-      <circle cx="11" cy="8" r="1" />
-      <circle cx="15" cy="12" r="1" />
-      <circle cx="19" cy="6" r="1" />
+      <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></g>
     </svg>
   );
 }
@@ -87,8 +77,7 @@ export function ShieldIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-      <path d="m9 12 2 2 4-4" />
+      <path fill="#000000" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/>
     </svg>
   );
 }
@@ -138,7 +127,7 @@ export function ChevronDownIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="m6 9 6 6 6-6" />
+      <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/>
     </svg>
   );
 }
@@ -156,8 +145,7 @@ export function ArrowRightIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="M5 12h14" />
-      <path d="m12 5 7 7-7 7" />
+      <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/>
     </svg>
   );
 }
@@ -195,8 +183,7 @@ export function XIcon({ className = '' }: IconProps) {
       className={className}
       aria-hidden="true"
     >
-      <path d="M18 6 6 18" />
-      <path d="m6 6 12 12" />
+      <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
     </svg>
   );
 }

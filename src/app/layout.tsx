@@ -13,14 +13,14 @@ import {
 // Swap to next/font/local with competition-provided fonts by
 // dropping files into src/assets/fonts/ and updating config.
 
-const spaceGrotesk = Space_Grotesk({
-  variable: '--font-space-grotesk',
+const inter = Inter({
+  variable: '--font-inter',
   subsets: ['latin'],
   display: 'swap',
 });
 
-const inter = Inter({
-  variable: '--font-inter',
+const jetbrainsMono = JetBrains_Mono({
+  variable: '--font-jetbrains-mono',
   subsets: ['latin'],
   display: 'swap',
 });
@@ -90,7 +90,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${inter.variable} h-full antialiased`}
+      className={`${jetbrainsMono.variable} ${inter.variable} h-full antialiased`}
     >
       <head>
         <StructuredData />
